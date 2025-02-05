@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_onjung/ui/pages/address/manual_contact_add_page/manual_register_step_3.dart';
+import 'package:flutter_onjung/ui/pages/tab/address_tab/manual_contact_add_page/manual_register_step_3.dart';
 
 class ManualRegisterStep2 extends StatelessWidget {
   final String name;

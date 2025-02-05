@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_onjung/ui/pages/home/_tab/address_tab/address_view_model.dart';
+import 'package:flutter_onjung/ui/pages/tab/address_tab/add_contact_page.dart';
+import 'package:flutter_onjung/ui/pages/tab/address_tab/address_view_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import 'package:flutter_onjung/ui/pages/address/add_contact_page.dart';
 
 class AddressTab extends ConsumerWidget {
   const AddressTab({Key? key}) : super(key: key);

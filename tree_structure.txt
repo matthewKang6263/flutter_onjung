@@ -1,0 +1,64 @@
+lib
+├── core
+│   └── auth_service.dart
+├── data
+│   ├── model
+│   │   ├── app_user.dart
+│   │   ├── contact.dart
+│   │   ├── event.dart
+│   │   └── group.dart
+│   └── repository
+│       ├── contact_repository.dart
+│       ├── event_repository.dart
+│       ├── group_repository.dart
+│       └── user_repositry.dart
+├── firebase_options.dart
+├── main.dart
+└── ui
+    ├── pages
+    │   ├── address
+    │   │   ├── \010sync_contact_list_page.dart
+    │   │   ├── add_contact_page.dart
+    │   │   ├── contact_detail_page.dart
+    │   │   ├── group_detail_page.dart
+    │   │   └── manual_contact_add_page
+    │   │       ├── manual_register_step_1.dart
+    │   │       ├── manual_register_step_2.dart
+    │   │       └── manual_register_step_3.dart
+    │   ├── event
+    │   │   └── event_detail.dart
+    │   ├── home
+    │   │   ├── _tab
+    │   │   │   ├── address_tab
+    │   │   │   │   ├── address_tab.dart
+    │   │   │   │   └── address_view_model.dart
+    │   │   │   ├── calendar_tab
+    │   │   │   │   ├── calendar_tab.dart
+    │   │   │   │   └── widget
+    │   │   │   │       └── day_bottom_modal.dart
+    │   │   │   ├── home_tab.dart
+    │   │   │   └── onjung_tab.dart
+    │   │   ├── home_page.dart
+    │   │   ├── home_view_model.dart
+    │   │   └── widgets
+    │   │       ├── home_bottom_navigation_bar.dart
+    │   │       └── home_indexed_stack.dart
+    │   ├── join
+    │   │   ├── join_page.dart
+    │   │   └── join_view_model.dart
+    │   ├── login
+    │   │   ├── login_page.dart
+    │   │   └── login_view_model.dart
+    │   └── welcome
+    │       └── welcome_page.dart
+    └── widgets
+        ├── email_text_form_field.dart
+        ├── input_field.dart
+        ├── name_text_form_field.dart
+        ├── primary_button.dart
+        ├── pw_text_form_field.dart
+        ├── select_field.dart
+        └── toast.dart
+/F  [error opening dir]
+
+20 directories, 41 files

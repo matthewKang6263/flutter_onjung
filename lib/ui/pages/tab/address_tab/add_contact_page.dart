@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_onjung/ui/pages/address/%08sync_contact_list_page.dart';
+import 'package:flutter_onjung/ui/pages/tab/address_tab/sync_contact_list_page.dart';
+import 'package:flutter_onjung/ui/pages/tab/address_tab/address_view_model.dart';
+import 'package:flutter_onjung/ui/pages/tab/address_tab/manual_contact_add_page/manual_register_step_1.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_onjung/ui/pages/home/_tab/address_tab/address_view_model.dart';
-import 'package:flutter_onjung/ui/pages/address/manual_contact_add_page/manual_register_step_1.dart';
 
 class AddContactPage extends ConsumerWidget {
   const AddContactPage({Key? key}) : super(key: key);

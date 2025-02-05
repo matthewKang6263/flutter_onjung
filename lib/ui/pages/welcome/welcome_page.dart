@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_onjung/ui/pages/login/login_page.dart';
-import 'package:flutter_onjung/ui/pages/join/join_page.dart';
+import 'package:flutter_onjung/ui/pages/welcome/join/join_page.dart';
+import 'package:flutter_onjung/ui/widgets/input_field.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});

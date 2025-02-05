@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_onjung/ui/widgets/home_bottom_navigation_bar.dart';
+import 'package:flutter_onjung/ui/widgets/home_indexed_stack.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_onjung/ui/pages/home/widgets/home_bottom_navigation_bar.dart';
-import 'package:flutter_onjung/ui/pages/home/widgets/home_indexed_stack.dart';
 import 'package:flutter_onjung/ui/pages/home/home_view_model.dart';
 
 class HomePage extends ConsumerWidget {

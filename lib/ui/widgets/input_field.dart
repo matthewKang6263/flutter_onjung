@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_onjung/ui/pages/login/login_view_model.dart';
+import 'package:flutter_onjung/ui/pages/welcome/login/login_view_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class LoginPage extends ConsumerWidget {

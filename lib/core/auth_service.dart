@@ -1,7 +1,7 @@
 // auth_service.dart
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_onjung/data/model/app_user.dart';
-import 'package:flutter_onjung/data/repository/user_repositry.dart';
+import 'package:flutter_onjung/data/repository/user_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class AuthService {
