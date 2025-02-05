@@ -1,3 +1,19 @@
+buildscript {
+    ext {
+        compileSdkVersion = 33 // Android SDK 최신 버전
+        minSdkVersion = 21     // 최소 지원 버전
+        targetSdkVersion = 33  // 타겟 버전
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2' // 최신 Gradle Plugin
+        classpath 'com.google.gms:google-services:4.3.15' // Google Services Plugin
+    }
+}
+
 allprojects {
     repositories {
         google()
